@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<title> Basketball Frvr </title>
+<meta content="Play Basketball Frvr game unblocked for free with fullscreen and no-ads-in-game experience." name="description"/>
+<style type="text/css">
+    .report-modal {
+      display: none;
+      position: fixed;
+      z-index: 20;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgb(0, 0, 0);
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .report-modal-content {
+      background-color: #fefefe;
+      color: #000;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      max-width: 320px;
+    }
+
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .report-label {
+      padding: 0 10px;
+      margin-right: 5px;
+      border-radius: 15px;
+      display: inline-block;
+      margin-bottom: 8px;
+    }
+  </style>
+<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="../css/jquery-comments.css" rel="stylesheet" type="text/css"/>
+<link href="../css/user.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet"/>
+<link href="../images/favicon.png" rel="icon" sizes="32x32"/>
+<!-- Font Awesome icons (free version)-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<!-- Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark top-nav" id="mainNav">
+<div class="container">
+<a class="navbar-brand js-scroll-trigger d-flex me-auto" href="../">
+<img alt="Logo" class="me-2" height="34" src="../images/logo-icon.svg" width="100" height="39" alt="Logo">
+</a>
+<button aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#nav-menu" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="navbar-collapse collapse justify-content-between" id="nav-menu">
+<ul class="navbar-nav mx-auto">
+<li class="nav-item d-block d-md-none"><a class="nav-link" href="category/new.html">NEW 🔥</a></li>
+<li class="nav-item"><a class="nav-link" href="category/fnf.html">FNF</a></li>
+<li class="nav-item"><a class="nav-link" href="category/sports.html">Sports</a></li>
+<li class="nav-item"><a class="nav-link" href="category/car.html">Car</a></li>
+<li class="nav-item"><a class="nav-link" href="category/skill.html">Skill</a></li>
+<li class="nav-item"><a class="nav-link" href="category/running.html">Running</a></li>
+<li class="nav-item"><a class="nav-link" href="category/shooting.html">Shooting</a></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">More</a>
+<ul class="dropdown-menu" role="menu">
+<li><a class="dropdown-item" href="../category/puzzle.html">Puzzle</a></li>
+<li><a class="dropdown-item" href="../category/racing.html">Racing</a></li>
+<li><a class="dropdown-item" href="../category/adventure.html">Adventure</a></li>
+<li><a class="dropdown-item" href="../category/3d.html">3D</a></li>
+<li><a class="dropdown-item" href="../category/action.html">Action</a></li>
+<li><a class="dropdown-item" href="../category/moto.html">Moto</a></li>
+<li><a class="dropdown-item" href="../category/stickman.html">Stickman</a></li>
+<li><a class="dropdown-item" href="../category/idle.html">Idle</a></li>
+<li><a class="dropdown-item" href="../category/2-player.html">2 Player</a></li>
+<li><a class="dropdown-item" href="../category/multiplayer.html">Multiplayer</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<a class="btn btn-capsule d-none d-md-block" href="category/new.html"><b>NEW</b> 🔥</a>
+</div>
+</nav>
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-9">
+<div class="game-container mb-3">
+<div class="game-content" data-id="169">
+<div id="allow_mobile_version"></div>
+<!-- 
+                <div id="mobile-play" style="display: none;">
+                  <div class="mobile-thumb-play">
+                    <img src="#">
+                  </div>
+                  <div id="mobile-play-btn">
+                    <i class="bi bi-play-circle-fill"></i>
+                  </div>
+                </div> -->
+<div class="game-iframe-container" id="game-player">
+<div draggable="true" id="mobile-back-button">
+<i class="bi bi-x-circle-fill"></i>
+</div>
+<iframe allowfullscreen="" class="game-iframe" frameborder="0" height="800" id="game-area" scrolling="none" src="https://just-fall.github.io/j26/basketball-frvr/" width="480"></iframe>
+</div>
+</div>
+</div>
+<div class="game-info p-2 px-4 d-sm-flex justify-content-between align-items-center mb-3">
+<h1 class="mb-0"><b>Basketball Frvr</b></h1>
+<div class="b-action2">
+<a class="btn btn-capsule" href="#" onclick="open_fullscreen()"><i class="bi bi-arrows-fullscreen"></i></a>
+<a class="btn btn-capsule" id="shareButton" target="_blank"><i class="bi bi-share"></i></a>
+</div>
+</div>
+</div>
+<!-- New games section -->
+<div class="trending-bg p-5 px-2 mt-5">
+    <h2 class="text-center h1 mb-3"><b>Trending Categories🔥</b></h2>
+    <div class="d-flex justify-content-center flex-wrap">
+      <a class="btn btn-capsule m-1" href="../category/shooting.html">Shooting</a>
+      <a class="btn btn-capsule m-1" href="../category/racing.html">Racing</a>
+      <a class="btn btn-capsule m-1" href="../category/action.html">Action</a>
+      <a class="btn btn-capsule m-1" href="../category/2-player.html">2 Player</a>
+      <a class="btn btn-capsule m-1" href="../category/multiplayer.html">Multiplayer</a>
+    </div>
+  </div>
+<h2 class="text-center h1 mb-4 mt-5 pt-4"><b>New Games🔥</b></h2>
+<div class="mb-5 pb-4 d-flex flex-wrap justify-content-center">
+ 
+<a href="hypersnake.html">
+ 
+ 
+ <img alt="Hypersnake"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/hypersnake.png"/>
+</a>
+<a href="lands-of-blight.html">
+ 
+ 
+ <img alt="Lands of Blight"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/lands-of-blight.png"/>
+</a>
+<a href="basketball-frvr.html">
+ 
+ 
+ <img alt="Basketball Frvr"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/basketball-frvr.png"/>
+</a>
+<a href="dunk-perfect.html">
+ 
+ 
+ <img alt="Dunk perfect"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/dunk-perfect.png"/>
+</a>
+<a href="football-blitz.html">
+ 
+ 
+ <img alt="Football Blitz"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/football-blitz.png"/>
+</a>
+<a href="war-of-caribbean-pirates.html">
+ 
+ 
+ <img alt="War of Caribbean Pirates"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/war-of-caribbean-pirates.png"/>
+</a>
+<a href="stickman-crazy-box.html">
+ 
+ 
+ <img alt="Stickman crazy box"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/stickman-crazy-box.png"/>
+</a>
+<a href="fury-wars.html">
+ 
+ 
+ <img alt="Fury wars"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/fury-wars.png"/>
+</a>
+<a href="dark-runner.html">
+ 
+ 
+ <img alt="Dark Runner"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/dark-runner.png"/>
+</a>
+<a href="fireboy-and-watergirl-2-light-temple.html">
+ 
+ 
+ <img alt="Fireboy and Watergirl 2: Light Temple"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/fireboy-and-watergirl-2-light-temple.png"/>
+</a>
+<a href="fireboy-and-watergirl-4-crystal-temple.html">
+ 
+ 
+ <img alt="Fireboy and Watergirl 4: Crystal Temple"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/fireboy-and-watergirl-4-crystal-temple.png"/>
+</a>
+<a href="g-switch-4.html">
+ 
+ 
+ <img alt="G-switch 4"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/g-switch-4.png"/>
+</a>
+<a href="izowave-build-and-defend.html">
+ 
+ 
+ <img alt="IZOWAVE - Build and Defend"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/izowave-build-and-defend.png"/>
+</a>
+<a href="bacon-may-die.html">
+ 
+ 
+ <img alt="Bacon May Die"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/bacon-may-die.png"/>
+</a>
+<a href="highway-bike-simulator.html">
+ 
+ 
+ <img alt="Highway Bike Simulator"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/highway-bike-simulator.png"/>
+</a>
+<a href="skibidi-shooter.html">
+ 
+ 
+ <img alt="Skibidi Shooter"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/skibidi-shooter.png"/>
+</a>
+<a href="fireboy-watergirl-6-fairy-tales.html">
+ 
+ 
+ <img alt="Fireboy and Watergirl 6: Fairy Tales"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/fireboy-watergirl-6-fairy-tales.png"/>
+</a>
+<a href="yohoho-io.html">
+ 
+ 
+ <img alt="YoHoHo.io"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/yohoho-io.png"/>
+ </a>
+</div>
+<!-- end New -->
+<!-- Popular games section -->
+<h2 class="text-center h1 mb-4 mt-5"><b>Popular Games🎮</b></h2>
+<div class="mb-5 pb-4 d-flex flex-wrap justify-content-center">
+ 
+<a href="kart-race-3d.html">
+ 
+ 
+ <img alt="Kart Race 3D"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/kart-race-3d.png"/>
+</a>
+<a href="top-speed-3d.html">
+ 
+ 
+ <img alt="Top Speed 3d"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/top-speed-3d.png"/>
+</a>
+<a href="stack-bump-3d.html">
+ 
+ 
+ <img alt="Stack Bump 3D"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/stack-bump-3d.png"/>
+</a>
+<a href="basket-bros.html">
+ 
+ 
+ <img alt="Basket Bros"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/basket-bros.png"/>
+</a>
+<a href="tiny-fishing.html">
+ 
+ 
+ <img alt="Tiny Fishing"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/tiny-fishing.png"/>
+</a>
+<a href="tunnel-rush.html">
+ 
+ 
+ <img alt="Tunnel Rush"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/tunnel-rush.png"/>
+</a>
+<a href="thumb-fighter.html">
+ 
+ 
+ <img alt="Thumb Fighter"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/thumb-fighter.png"/>
+</a>
+<a href="soccer-skills-champions-league.html">
+ 
+ 
+ <img alt="Soccer Skills Champions League"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/soccer-skills-champions-league.png"/>
+</a>
+<a href="fancy-pants-3.html">
+ 
+ 
+ <img alt="Fancy Pants 3"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/fancy-pants-3.png"/>
+</a>
+<a href="vex-7.html">
+ 
+ 
+ <img alt="Vex 7"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/vex-7.png"/>
+</a>
+<a href="bitlife.html">
+ 
+ 
+ <img alt="Bitlife"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/bitlife.png"/>
+</a>
+<a href="five-nights-at-freddys.html">
+ 
+ 
+ <img alt="Five Nights at Freddy's"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/five-nights-at-freddys.png"/>
+</a>
+<a href="moto-x3m.html">
+ 
+ 
+ <img alt="Moto X3M"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/moto-x3m.png"/>
+</a>
+<a href="who-is.html">
+ 
+ 
+ <img alt="Who Is"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/who-is.png"/>
+</a>
+<a href="wrassling.html">
+ 
+ 
+ <img alt="Wrassling"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/wrassling.png"/>
+</a>
+<a href="stick-defenders.html">
+ 
+ 
+ <img alt="Stick Defenders"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/stick-defenders.png"/>
+</a>
+<a href="idle-digging-tycoon.html">
+ 
+ 
+ <img alt="Idle Digging Tycoon"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/idle-digging-tycoon.png"/>
+</a>
+<a href="merge-cyber-racers.html">
+ 
+ 
+ <img alt="Merge Cyber Racers"  width="107" height="107" class="lazyload list-thumbnail m-2 rounded-4" src="../img/merge-cyber-racers.png"/>
+ </a>
+</div>
+<!-- end Poplular -->
+</div> <!-- end container -->
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="game-info p-3 d-md-flex justify-content-between px-md-5 mb-3">
+            <a class="navbar-brand js-scroll-trigger mb-3 mb-md-0" href="../">
+              <img src="../images/logo-icon.svg" width="100" height="39" alt="Logo">
+            </a>
+            <div>
+              <a href=""><img src="../images/fb-icon.svg" width="40" height="40" alt="social media Icon"
+                  class="me-2"></a>
+              <a href=""><img src="../images/insta-icon.svg" width="40" height="40" alt="social media Icon"
+                  class="me-2"></a>
+              <a href=""><img src="../images/discord-icon.svg" width="40" height="40" alt="social media Icon"
+                  class="me-2"></a>
+              <a href=""><img src="../images/x-icon.svg" width="40" height="40" alt="social media Icon"></a>
+            </div>
+          </div>
+          <div class="text-center mb-2">
+            <a href="../terms.html" class="text-white">Terms</a> &nbsp; • &nbsp; <a href="../privacy.html" class="text-white">Privacy</a> &nbsp; •
+            &nbsp; <a href="../dmca.html" class="text-white">DMCA</a>
+          </div>
+          <p class="text-center fw-light">© 2024 vex4.github.io All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- Modal -->
+<div aria-hidden="true" aria-labelledby="shareModalLabel" class="modal fade" id="shareModal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title text-center" id="shareModalLabel"><b>Share URL</b></h5>
+<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body pb-4 pt-1">
+<input class="form-control mb-3" id="urlInput" type="text" value=""/>
+<button class="btn btn-dark rounded-5" id="copyButton" type="button">Copy</button>
+</div>
+</div>
+</div>
+</div>
+<script src="../js/jquery-3.6.2.min.js" type="text/javascript"></script>
+<script src="../js/lazysizes.min.html" type="text/javascript"></script>
+<script src="../js/popper.min.js" type="text/javascript"></script>
+<script src="../js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../js/script.js" type="text/javascript"></script>
+<script src="../js/custom.js" type="text/javascript"></script>
+</div></body>
+</html>

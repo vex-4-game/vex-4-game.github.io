@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://vex4unblocked.github.io/sitemap.xml
